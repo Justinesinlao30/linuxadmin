@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 yum install -y httpd
 systemctl start httpd
 firewall-cmd --permanent --add-port=80/tcp
