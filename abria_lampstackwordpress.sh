@@ -67,15 +67,35 @@ systemctl enable mariadb
 echo "Running simple security script"
 mysql_secure_installation <<EOF
 
-# Automatic type yes after creating mariadb user and pass
+# automatic type yes after creating mariadb user and pass
+echo "Enter Yes"
+Y
 
-Y
+# password
+echo "Enter my password"
 just
+
+# confirm password
+echo "Confirm my password"
 just
+
+# yes or no
+echo "Enter yes"
 Y
+
+# yes or no
+echo "Enter yes"
 Y
+# yes or no
+echo "Enter yes"
 Y
+
+# yes or no
+echo "Enter yes"
 Y
+
+#EOF
+echo "EOF operator"
 EOF
 
 # enable mariadb password and dbname
