@@ -109,7 +109,7 @@ echo "Verifying installation"
 mysqladmin -u root -p$passw version
 
 # creating database user and pass using a wordpress
-echo "CREATE DATABASE wordpress; CREATE USER wp_@localhost IDENTIFIED BY 'just'; GRANT ALL PRIVILEGES ON wordpress.* TO wp_user@localhost IDENTIFIED BY 'just'; 
+echo "CREATE DATABASE wordpress; CREATE USER wp_user@localhost IDENTIFIED BY 'just'; GRANT ALL PRIVILEGES ON wordpress.* TO wp_user@localhost IDENTIFIED BY 'just'; 
 FLUSH PRIVILEGES;" | mysql -u root -p$passw
 
 # install wordpress php gd
