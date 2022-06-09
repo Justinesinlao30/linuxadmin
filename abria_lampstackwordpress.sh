@@ -25,7 +25,7 @@ systemctl restart httpd
 git add -A
 
 # commit changes added to the git and add a message
-git commit -m "Added abria_apachewebpage.sh"
+git commit -m "added abria_apachewebpage.sh"
 
 # upload the script to github
 git push origin main
@@ -46,7 +46,7 @@ echo '<? php phpinfo(); ?>' > index.php
 git add -A
 
 # commit changes added to the git and add a message
-git commit -m "Added abria_phpapache_phpfpm.sh"
+git commit -m "added abria_phpapache_phpfpm.sh"
 
 # upload the script to github
 git push origin main
@@ -117,7 +117,7 @@ tar xzvf latest.tar.gz
 git add -A
 
 # commit changes added to the git and add a message
-git commit -m "Added abria_mysqlmariadb.sh"
+git commit -m "added abria_mysqlmariadb.sh"
 
 # upload the script to github
 git push origin main
@@ -157,7 +157,7 @@ systemctl restart httpd.service
 git add -A
 
 # commit changes added to the git and add a message
-git commit -m "Added abria_assignement81.sh"
+git commit -m "added abria_assignement81.sh"
 
 # upload the script to github
 git push origin main
